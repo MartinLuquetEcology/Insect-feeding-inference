@@ -1,0 +1,36 @@
+----------------- GENERAL INFORMATION ----------------- 
+
+--- These scripts will guide you step by step to do classification and/or prevalence estimation for feeding inference
+--- They are complementary to the paper "Inferring insect feeding patterns based on sugar profiles:a comparison of statistical methods" (Ecological Entomology)
+--- Notably the heatmap decision tool displayed in the paper
+
+--- These are the first version of the scripts
+--- Potential new versions will be uploaded on https://github.com/MartinLuquetEcology/Insect-feeding-inference.git
+--- Before using this script, don't hesitate to check the link for updates
+--- You just have to click on the link, then click on the "Code" tab (in green) and click on "Download ZIP" to download the last versions
+
+--- For any question/suggestion, or if you notice a bug
+--- Please contact Martin Luquet at martin.luquet.pro@gmail.com
+--- Don't hesitate to give your feedback!
+
+----------------- CONTENT OF THE APPENDIX ----------------- 
+
+--- This folder contains several scripts for classification and/or prevalence estimation for insect feeding inference
+------ A script to prepare the lab data
+------ Scripts to train a classifier based on your lab data, depending on the method you choose
+------ A script to prepare and predict the field data
+------ Scripts to estimate the class distribution of your field data, depending on the method you choose
+--- (Fake) datasets are also included as illustrative examples
+
+----------------- HOW TO USE THE SCRIPTS? ----------------- 
+
+--- To use these scripts, you'll need R software (download it on https://www.r-project.org/)
+--- Optionally, it will be easier if you install RStudio (https://rstudio.com/)
+--- Once you have the software installed, you have to open the script "Data preparation"
+--- This will help you prepare and load your data in R
+----- Ideally, store the scripts and your data in the same folder
+--- Alternatively, you can just run the scripts using the included examples to see how they work
+--- To use the scripts, you just have to follow the instructions
+----- Lines preceded by a "#" are annotations to help you follow each step
+----- Run each line not preceded by a "#" one by one clicking on the "Run" button (RStudio) or using one of the following shortcuts: Ctrl+R or Ctrl+Enter
+----- Sometimes, the script will ask you to type some things (e. g. the name of your variables, etc.): be sure to type the exact name
