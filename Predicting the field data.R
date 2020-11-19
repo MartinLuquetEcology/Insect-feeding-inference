@@ -1,4 +1,5 @@
-###------- Version 1.0 (Martin Luquet, martin.luquet.pro@gmail.com) ------- ###
+###------- Version 1.1 (Martin Luquet, martin.luquet.pro@gmail.com) ------- ###
+  ## Update of version 1.1 (11/19/20): comments about field dataset size and prevalence estimation
 ###------- check https://github.com/MartinLuquetEcology/Insect-feeding-inference.git for updates ------- ###
 
 #### PREDICTING THE FIELD DATA ####
@@ -74,3 +75,16 @@ write.table(field.data,file="field.data.predictions.txt")
 # Check the heatmap in the paper to find the best method for your dataset
   # Classify and Count (CC) -> Open the script "Classify and Count.R"
   # Adjusted Counting (AC) -> Open the script "Adjusted Counting.R"
+
+#UPDATE (Version 1.1)
+  # New results by Maletzke et al., that were unfortunately not published yet when our paper was accepted
+  # Suggest that the size of the field dataset influences the performance of adjusted counting
+  # It is difficult to determine a precise threshold
+  # But as a rule of thumb, it can be advised that if your field dataset is <40 samples, you should use Classify and Count
+  # If your aim is to estimate class distribution in different treatments (e. g. field with nectar vs field without nectar)
+  # You should have at least 30-40 samples in each treatment
+  # Otherwise, it is probably wiser to use Classify and Count, but error rates estimated on the lab dataset should still be reported
+  # For more information, see the conference paper by Maletzke et al. 2020: https://doi.org/10.24963/ijcai.2020/366 
+  # As well as the supplementary information
+  # Alternative methods are suggested in this paper for small dataset sizes, such as Median Sweep
+  # But note that their performance may be variable and that there were not tested for insect sugar profile datasets
