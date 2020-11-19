@@ -6,3 +6,7 @@ These are the scripts complementary to the paper "Inferring insect feeding patte
 Read "README - How to use the scripts" for a detailed guide on how to use the scripts.
 
 For now, these are the first versions of the script. Updates will be described here.
+
+## ------ UPDATES ------
+
+# 11/19/20 - Predicting the field data.R version 1.1 : comments about the effect of field dataset size on prevalence estimation in light of recent results
