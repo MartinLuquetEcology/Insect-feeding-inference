@@ -3,7 +3,7 @@
 
 #### PREDICTING THE FIELD DATA ####
 
-## This script will help you predict insect feeding status using Gaussian Mixture Models
+## This script will help you predict the feeding status of your field individuals
 ## To run this script, you must have prepared your lab data ("Data preparation.R")
 ## And run a classifier ("Random Forests.R" OR "Discriminant Analyses.R" OR "Gaussian Mixture Models.R")
 
