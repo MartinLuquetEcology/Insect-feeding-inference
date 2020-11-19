@@ -1,5 +1,5 @@
 ###------- Version 1.1 (Martin Luquet, martin.luquet.pro@gmail.com) ------- ###
-  ## Update of version 1.1 (11/19/20): comments about field dataset size and prevalence estimation
+  ## Added in version 1.1 (11/19/20): comments about field dataset size and prevalence estimation
 ###------- check https://github.com/MartinLuquetEcology/Insect-feeding-inference.git for updates ------- ###
 
 #### PREDICTING THE FIELD DATA ####
