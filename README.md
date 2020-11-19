@@ -9,4 +9,4 @@ For now, these are the first versions of the script. Updates will be described h
 
 ## ------ UPDATES ------
 
-# 11/19/20 - Predicting the field data.R version 1.1 : comments about the effect of field dataset size on prevalence estimation in light of recent results
+11/19/20 - Predicting the field data.R version 1.1 : comments about the effect of field dataset size on prevalence estimation in light of recent results
