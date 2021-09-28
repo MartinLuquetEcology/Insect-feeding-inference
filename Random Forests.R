@@ -40,7 +40,7 @@ lab.data$Predicted
 # The higher the variable is on the y-axis, the more it is important to classify your variables
 varImpPlot(RF.model)
 
-# This gives you the samples (line numbers) that were misclassified
+# This gives you the samples (row numbers) that were misclassified
 which(lab.data$Classes != lab.data$Predicted)
 
 # Don't hesitate to visualize your data to see what samples were correctly or wrongly classified
