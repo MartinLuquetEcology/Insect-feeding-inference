@@ -26,8 +26,11 @@ RF.model <- randomForest(formula.RF,data=lab.data,ntree=1000)
 # Rows are real individuals, columns are predictions
 RF.model$confusion
 
-# We'll need it again: let's save this for later
-conf.matrix <- RF.model$confusion[,1:3]
+# We'll need the confusion matrix again for fields predictions
+# Let's save it for later
+# (Note that we remove the last column 'class.error', you do not have to  bother about this)
+conf.matrix <- RF.model$confusion[,1:ncol(RF.model$confusion)-1]
+conf.matrix 
 
 # Here, you can see how each of your samples in the lab data is predicted by the Random Forest
 lab.data$Predicted <- RF.model$predicted
