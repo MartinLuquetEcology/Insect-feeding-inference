@@ -31,7 +31,7 @@ conf.matrix
 # Here are the estimated error rates associated to each class
 1 - diag(conf.matrix)/rowSums(conf.matrix)
 
-# This gives you the samples (line numbers) that were misclassified
+# This gives you the samples (row numbers) that were misclassified
 which(lab.data$Classes != lab.data$Predicted)
 
 # Don't hesitate to visualize your data to see what samples were correctly or wrongly classified
