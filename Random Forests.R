@@ -1,4 +1,4 @@
-###------- Version 1.0 (Martin Luquet, martin.luquet.pro@gmail.com) ------- ###
+###------- Version 1.1 (Martin Luquet, martin.luquet.pro@gmail.com) ------- ###
 ###------- check https://github.com/MartinLuquetEcology/Insect-feeding-inference.git for updates ------- ###
 
 #### TRAINING THE CLASSIFIER (ON THE LAB DATA) ####
