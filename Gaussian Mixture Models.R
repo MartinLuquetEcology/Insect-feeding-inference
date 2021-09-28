@@ -52,7 +52,7 @@ ggplot(lab.data,aes(x=Fructose,y=GF_Ratio,shape=Classes,col=Predicted))+
   labs(shape="Real Class", col="Predicted Class")
 
 # If you prefer to export the data to another software (e.g. Excel or Open Office)
-# you can export the dataset containing predicitons using the following function
+# you can export the dataset containing predictions using the following function
 # This will create a text file named "lab.data.predictions.txt" in your working directory
 # This is your dataset, containing the predictions by the Random Forest
 # The column "Predicted" indicates how each individual is predicted by the Random Forest
