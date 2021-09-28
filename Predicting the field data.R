@@ -87,4 +87,4 @@ write.table(field.data,file="field.data.predictions.txt")
   # For more information, see the conference paper by Maletzke et al. 2020: https://doi.org/10.24963/ijcai.2020/366 
   # As well as the supplementary information
   # Alternative methods are suggested in this paper for small dataset sizes, such as Median Sweep
-  # But note that their performance may be variable and that there were not tested for insect sugar profile datasets
+  # But note that their performance may be variable and that these were not tested for insect sugar profile datasets
