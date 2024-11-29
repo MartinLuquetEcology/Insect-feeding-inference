@@ -9,6 +9,8 @@ For now, these are the first versions of the script. Updates will be described h
 
 ## ------ UPDATES ------
 
-11/19/20 - Predicting the field data.R version 1.1: comments about the effect of field dataset size on prevalence estimation in light of recent results.
+21_28_09 - Random Forests.R version 1.1: The script allowed to extract the confusion matrix only for a 3-class problem. It can now be used for any number of classes.
 
-09/28/21 - Random Forests.R version 1.1: The script allowed to extract the confusion matrix only for a 3-class problem. It can now be used for any number of classes.
+20_19_11 - Predicting the field data.R version 1.1: comments about the effect of field dataset size on prevalence estimation in light of recent results.
+
+
